@@ -34,7 +34,8 @@ if (session_status() === PHP_SESSION_NONE) {
                         Login User
 >>>>>>> fitur-login
                     </h3>
-
+                    <p>Silakan login untuk melanjutkan.</p>
+                    
                     <?php if (!empty($_SESSION['flash'])): ?>
 
                         <div class="alert alert-info">
