@@ -42,7 +42,7 @@ class MahasiswaController extends BaseController
 
             $this->repo->create($mahasiswa);
 
-            $this->redirect('/BkpmWebServer/acara11/public/mahasiswa');
+            $this->redirect('/BkpmWebServer/acara12/public/mahasiswa');
 
         } catch (InvalidArgumentException $e) {
             echo $e->getMessage();
@@ -79,7 +79,7 @@ class MahasiswaController extends BaseController
 
             $this->repo->update($id, $mahasiswa);
 
-            $this->redirect('/BkpmWebServer/acara11/public/mahasiswa');
+            $this->redirect('/BkpmWebServer/acara12/public/mahasiswa');
 
         } catch (InvalidArgumentException $e) {
             echo $e->getMessage();
@@ -90,6 +90,6 @@ class MahasiswaController extends BaseController
     {
         $this->repo->delete($id);
 
-        $this->redirect('/BkpmWebServer/acara11/public/mahasiswa');
+        $this->redirect('/BkpmWebServer/acara12/public/mahasiswa');
     }
 }

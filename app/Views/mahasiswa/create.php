@@ -2,7 +2,7 @@
 
 <form
     method="POST"
-    action="/BkpmWebServer/acara10/public/mahasiswa"
+    action="/BkpmWebServer/acara12/public/mahasiswa"
 >
 
     <div class="mb-3">
@@ -83,7 +83,7 @@
     </button>
 
     <a
-        href="/BkpmWebServer/acara10/public/mahasiswa"
+        href="/BkpmWebServer/acara12/public/mahasiswa"
         class="btn btn-secondary"
     >
         Kembali

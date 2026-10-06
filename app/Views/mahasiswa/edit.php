@@ -2,7 +2,7 @@
 
 <form
     method="POST"
-    action="/BkpmWebServer/acara11/public/mahasiswa/<?= $mahasiswa['id'] ?>"
+    action="/BkpmWebServer/acara12/public/mahasiswa/<?= $mahasiswa['id'] ?>"
 >
 
     <div class="mb-3">
@@ -93,7 +93,7 @@
     </button>
 
     <a
-        href="/BkpmWebServer/acara10/public/mahasiswa"
+        href="/BkpmWebServer/acara12/public/mahasiswa"
         class="btn btn-secondary"
     >
         Kembali

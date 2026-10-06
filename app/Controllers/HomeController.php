@@ -25,7 +25,7 @@ class HomeController
             unset($_SESSION['flash']);
         }
 
-        echo "<a href='/BkpmWebServer/acara11/public/mahasiswa'>";
+        echo "<a href='/BkpmWebServer/acara12/public/mahasiswa'>";
         echo 'Daftar Mahasiswa';
         echo '</a>';
 

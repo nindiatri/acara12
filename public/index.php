@@ -19,7 +19,7 @@ require_once __DIR__ . '/../app/Middleware/AuthMiddleware.php';
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $method = $_SERVER['REQUEST_METHOD'];
 
-$base = '/BkpmWebServer/acara10/public';
+$base = '/BkpmWebServer/acara12/public';
 
 if (str_starts_with($uri, $base)) {
     $uri = substr($uri, strlen($base));

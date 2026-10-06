@@ -21,7 +21,7 @@ class AuthController
             exit();
         } else {
             $_SESSION['flash'] = 'Username atau password salah';
-            header('Location: /BkpmWebServer/acara11/public/login');
+            header('Location: /BkpmWebServer/acara12/public/login');
             exit();
         }
     }
