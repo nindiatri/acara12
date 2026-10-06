@@ -30,7 +30,8 @@ if (session_status() === PHP_SESSION_NONE) {
                     <h3 class="text-center mb-4">
                         Login User
                     </h3>
-
+                    <p>Silakan login untuk melanjutkan.</p>
+                    
                     <?php if (!empty($_SESSION['flash'])): ?>
 
                         <div class="alert alert-info">
