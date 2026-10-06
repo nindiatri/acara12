@@ -28,7 +28,11 @@ if (session_status() === PHP_SESSION_NONE) {
                 <div class="card-body">
 
                     <h3 class="text-center mb-4">
+<<<<<<< HEAD
                         Login Mahasiswa
+=======
+                        Login User
+>>>>>>> fitur-login
                     </h3>
 
                     <?php if (!empty($_SESSION['flash'])): ?>
